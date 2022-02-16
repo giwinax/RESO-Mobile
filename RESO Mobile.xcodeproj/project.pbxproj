@@ -10,9 +10,12 @@
 		3228FB3627BD421600447A59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3228FB3527BD421600447A59 /* AppDelegate.swift */; };
 		3228FB3827BD421600447A59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3228FB3727BD421600447A59 /* SceneDelegate.swift */; };
 		3228FB3A27BD421600447A59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3228FB3927BD421600447A59 /* ViewController.swift */; };
-		3228FB3D27BD421600447A59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3228FB3B27BD421600447A59 /* Main.storyboard */; };
 		3228FB3F27BD421700447A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3228FB3E27BD421700447A59 /* Assets.xcassets */; };
-		3228FB4227BD421700447A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3228FB4027BD421700447A59 /* LaunchScreen.storyboard */; };
+		32416DCF27BD4D3B00923A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32416DCE27BD4D3B00923A2E /* Main.storyboard */; };
+		32416DD127BD600600923A2E /* OfficesList.json in Resources */ = {isa = PBXBuildFile; fileRef = 32416DD027BD600600923A2E /* OfficesList.json */; };
+		32416DD527BD6A5A00923A2E /* OfficeListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32416DD427BD6A5A00923A2E /* OfficeListModel.swift */; };
+		32416DD827BD6F6700923A2E /* RESOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32416DD627BD6F6700923A2E /* RESOViewController.swift */; };
+		32416DD927BD6F6700923A2E /* RESOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32416DD727BD6F6700923A2E /* RESOViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		3228FB3527BD421600447A59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3228FB3727BD421600447A59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3228FB3927BD421600447A59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3228FB3C27BD421600447A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3228FB3E27BD421700447A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3228FB4127BD421700447A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3228FB4327BD421700447A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32416DCE27BD4D3B00923A2E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		32416DD027BD600600923A2E /* OfficesList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = OfficesList.json; sourceTree = "<group>"; };
+		32416DD427BD6A5A00923A2E /* OfficeListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeListModel.swift; sourceTree = "<group>"; };
+		32416DD627BD6F6700923A2E /* RESOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESOViewController.swift; sourceTree = "<group>"; };
+		32416DD727BD6F6700923A2E /* RESOViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RESOViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				3228FB3527BD421600447A59 /* AppDelegate.swift */,
 				3228FB3727BD421600447A59 /* SceneDelegate.swift */,
 				3228FB3927BD421600447A59 /* ViewController.swift */,
-				3228FB3B27BD421600447A59 /* Main.storyboard */,
+				32416DD627BD6F6700923A2E /* RESOViewController.swift */,
+				32416DD427BD6A5A00923A2E /* OfficeListModel.swift */,
+				32416DD027BD600600923A2E /* OfficesList.json */,
+				32416DCE27BD4D3B00923A2E /* Main.storyboard */,
 				3228FB3E27BD421700447A59 /* Assets.xcassets */,
-				3228FB4027BD421700447A59 /* LaunchScreen.storyboard */,
 				3228FB4327BD421700447A59 /* Info.plist */,
+				32416DD727BD6F6700923A2E /* RESOViewController.xib */,
 			);
 			path = "RESO Mobile";
 			sourceTree = "<group>";
@@ -125,9 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3228FB4227BD421700447A59 /* LaunchScreen.storyboard in Resources */,
+				32416DCF27BD4D3B00923A2E /* Main.storyboard in Resources */,
+				32416DD127BD600600923A2E /* OfficesList.json in Resources */,
 				3228FB3F27BD421700447A59 /* Assets.xcassets in Resources */,
-				3228FB3D27BD421600447A59 /* Main.storyboard in Resources */,
+				32416DD927BD6F6700923A2E /* RESOViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +148,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32416DD527BD6A5A00923A2E /* OfficeListModel.swift in Sources */,
 				3228FB3A27BD421600447A59 /* ViewController.swift in Sources */,
+				32416DD827BD6F6700923A2E /* RESOViewController.swift in Sources */,
 				3228FB3627BD421600447A59 /* AppDelegate.swift in Sources */,
 				3228FB3827BD421600447A59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3228FB3B27BD421600447A59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3228FB3C27BD421600447A59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3228FB4027BD421700447A59 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3228FB4127BD421700447A59 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3228FB4427BD421700447A59 /* Debug */ = {
@@ -217,7 +210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,11 +282,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65G82JSHP5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "RESO Mobile/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,11 +311,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65G82JSHP5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "RESO Mobile/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
