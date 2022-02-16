@@ -52,6 +52,7 @@ class ViewController: UIViewController {
         window.layer.add(transition, forKey: kCATransition)
         present(RESOViewController, animated: false, completion: nil)
         RESOViewController.officeListJSON = self.officeListJSON
+        print(self.officeListJSON[85].SGRAFSPR)
         navigationController?.pushViewController(RESOViewController, animated: true)
     }
     // TODO: refactor function to complition

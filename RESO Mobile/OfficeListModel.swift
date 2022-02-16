@@ -18,7 +18,8 @@ struct OfficeListModel: Decodable {
     let IDUNDERGROUND: [IDUNDERGROUNDStruct]
     let LPAYBYCARD: Bool?
     let SPHONE: String
-    let SGRAF: String
+    let SGRAF: String?
+    let SGRAFSPR: String?
     let GRAF: [GRAFStruct]?
     let NLAT: Double
     let CPHONE: [CPHONEStruct]
